@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 18, 2024, 10:02:52 AM
+    Author     : BAP VN
+*/
+
+#pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px 0; /* Thêm khoảng cách phía trên và dưới */
+}
+
+#pagination a {
+    margin: 0 5px; /* Thêm khoảng cách giữa các trang */
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #000; /* Màu chữ */
+}
+
+#pagination a.active {
+    font-weight: bold;
+    color: #007bff; /* Màu xanh cho trang hiện tại */
+}
